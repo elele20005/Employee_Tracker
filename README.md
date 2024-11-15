@@ -41,37 +41,10 @@ command:  `npm install`
 
 ## Usage
 
-I will be Using the 5-day weather forecast API to retrieve weather data for cities:       
+Design the database schema as shown in the following image:
 
-https://openweathermap.org/forecast5.
+![image](https://github.com/user-attachments/assets/cc7dbbfa-2761-4e71-913c-ae9345b57bda)
 
-
-The base URL should look like the following:    
-
-`https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}`
-
-
-After registering for a new API key, you may need to wait up to 2 hours for that API key to activate.
-
-For more information on how to work with the OpenWeather API, refer to the Full-Stack Blog on how to use API keys
-
-https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys  
-
-And Render documentation on setting environment variables 
-
-https://docs.render.com/configure-environment-variables
-
-Also add your `server` and `api scripts` in the scripts section of package.json      
-
-Exaple below:
-
-`{ `        
-`"scripts": { `     
-` "server": "node server.js",  `    
-  ` "api": "node api.js",  `      
-   ` "start": "npm run server & npm run api"  `       
-         `     } `       
-         `}`      
 
 command: `npm run server` will start the server (server.js file).      
 Command: `npm run api` will start the API (api.js file).          
