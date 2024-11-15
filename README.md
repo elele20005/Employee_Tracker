@@ -10,7 +10,7 @@ SO THAT I can organize and plan my business
 ## Description: SQL, Employee Tracker
 Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS). The task is to build a command-line application from scratch to manage a company's employee database, using `Node.js, Inquirer, and PostgreSQL.`
 Because this task will require the use of the Inquirer package, ensure that you install and use `Inquirer version 8.2.4.` To do so, use the following command in your project folder: `npm i inquirer@8.2.4.`
-Because this application won’t be deployed, but a walkthrough video that demonstrates its functionality will be linked below and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of the project.
+This application won’t be deployed, but a walkthrough video that demonstrates its functionality will be linked below and all of the acceptance criteria being met.
 
 ## Table of Contents
 
