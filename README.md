@@ -1,12 +1,14 @@
-# SkyTrack-Dashboard
+# Employee_Tracker
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
 ## User Story
 As a traveler, I want to see the weather outlook for multiple cities. So, that I can plan a trip accordingly.
 
-## Description: Servers and APIs
-External APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in their context, frequently consuming this data via a server. My task is to build a weather dashboard application that calls the OpenWeather API and renders data in the browser.The application’s front end has already been created. It's my job to build the back end, connect the two, and then deploy the entire application to Render.
+## Description: SQL, Employee Tracker
+Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS). The task is to build a command-line application from scratch to manage a company's employee database, using `Node.js, Inquirer, and PostgreSQL.`
+Because this task will require the use of the Inquirer package, ensure that you install and use `Inquirer version 8.2.4.` To do so, use the following command in your project folder: `npm i inquirer@8.2.4.`
+Because this application won’t be deployed, but a walkthrough video that demonstrates its functionality will be linked below and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of the project.
 
 ## Table of Contents
 
