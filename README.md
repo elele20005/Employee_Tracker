@@ -91,7 +91,7 @@ command:  `npm start`
 ## Deployement URL
 You can check out the deployment url being used below      
 
-https://skytrack-dashboard.onrender.com
+
 
 
 ## For more questions, please reach out to:
