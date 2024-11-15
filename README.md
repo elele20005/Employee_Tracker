@@ -41,7 +41,7 @@ command:  `npm install`
 
 ## Usage
 
-The Design database schema would look like shown in the following image:
+The Design database schema would look like the following image:
 
 ![image](https://github.com/user-attachments/assets/cc7dbbfa-2761-4e71-913c-ae9345b57bda)
 
