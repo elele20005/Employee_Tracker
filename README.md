@@ -92,7 +92,7 @@ This project is licensed under the MIT License and Apache 2.0
 Contributions are welcome! Please feel free to submit pull requests.
 
 ## Tests
-To test the application, run the Builder and verify that outputs match expected results based on various inputs
+To test the application, run the builder and verify that outputs match expected results based on various inputs
 
 ## Walkthrough Video 
 You can check out the Walkthrough video being used below      
