@@ -23,7 +23,7 @@ This application won’t be deployed, but a walkthrough video that demonstrates 
 -Questions
 
 ## Installation
-To install and run this application locally, please follow these steps:
+To install and run this application follow these steps:
 
 Clone the repository via SSH:
 
@@ -79,9 +79,9 @@ As the image illustrates, the schema should contain the following three tables:
 `manager_id: INTEGER to hold reference to another employee that is the manager of the current employee (null if the employee has no manager)`
 
 
-You might want to use a separate file that contains functions for performing specific SQL queries you'll need to use. A constructor function or class could be helpful for organizing these. You might also want to include a `seeds.sql` file to pre-populate your database, making the development of individual features much easier.
+You might want to use a separate file that contains functions for performing specific `SQL queries` you'll need to use. A constructor function or class could be helpful for organizing these. You might also want to include a `seeds.sql` file to pre-populate your database, making the development of individual features much easier.
 
-command: `node src/app.js` will start the biuld.      
+command: `node src/app.js` will start the build.      
 Command: `psql -U postgres` will get you to access the fucntion.          
 command: `progres=# exit` will stop your code. 
 
@@ -94,14 +94,8 @@ Contributions are welcome! Please feel free to submit pull requests.
 ## Tests
 To test the application, run the Builder and verify that outputs match expected results based on various inputs
 
-
-## Additional Requirements
-This Challenge combines many of the skills covered so far. In addition to the user story and acceptance criteria, we've provided some guidelines to help you get started. Your application should use Inquirer for collecting input from the user. The application will be invoked by using the following command:
-
-command:  `npm start` 
-
-## Deployement URL
-You can check out the deployment url being used below      
+## Walkthrough Video 
+You can check out the Walkthrough video being used below      
 
 
 
