@@ -3,7 +3,9 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
 ## User Story
-As a traveler, I want to see the weather outlook for multiple cities. So, that I can plan a trip accordingly.
+AS A business owner
+I WANT to be able to view and manage the departments, roles, and employees in my company
+SO THAT I can organize and plan my business
 
 ## Description: SQL, Employee Tracker
 Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS). The task is to build a command-line application from scratch to manage a company's employee database, using `Node.js, Inquirer, and PostgreSQL.`
@@ -25,12 +27,12 @@ To install and run this application locally, please follow these steps:
 
 Clone the repository via SSH:
 
-`git clone git@github.com: elele20005/SkyScope-Dashboard.git`
+`git clone git@github.com: elele20005/Employee_Tracker.git`
        
    Navigate to the Project Directory
 
 
- command: `cd SkyScope-Dashboard`
+ command: `cd Employee_Tracker`
  
 Install Dependencies
 
