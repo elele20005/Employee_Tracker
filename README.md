@@ -97,8 +97,7 @@ To test the application, run the builder and verify that outputs match expected 
 ## Walkthrough Video 
 You can check out the Walkthrough video being used below      
 
-
-
+https://drive.google.com/file/d/1zL8PeJW-upIadunbzBz9WHUpDiSzCQhE/view
 
 ## For more questions, please reach out to:
  
