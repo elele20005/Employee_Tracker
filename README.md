@@ -45,45 +45,7 @@ The Design database schema would look like the following image:
 
 ![image](https://github.com/user-attachments/assets/cc7dbbfa-2761-4e71-913c-ae9345b57bda)
 
-As the image illustrates, the schema should contain the following three tables:
-
-* department
-
-`id: SERIAL PRIMARY KEY`
-
-`name: VARCHAR(30) UNIQUE NOT NULL to hold department name`
-
-
-* role
-
-`id: SERIAL PRIMARY KEY`
-
-`title: VARCHAR(30) UNIQUE NOT NULL to hold role title`
-
-`salary: DECIMAL NOT NULL to hold role salary`
-
-`department_id: INTEGER NOT NULL to hold reference to department role belongs to`
-
-
-* employee
-
-
-`id: SERIAL PRIMARY KEY`
-
-`first_name: VARCHAR(30) NOT NULL to hold employee first name`
-
-`last_name: VARCHAR(30) NOT NULL to hold employee last name`
-
-`role_id: INTEGER NOT NULL to hold reference to employee role`
-
-`manager_id: INTEGER to hold reference to another employee that is the manager of the current employee (null if the employee has no manager)`
-
-
-You might want to use a separate file that contains functions for performing specific `SQL queries` you'll need to use. A constructor function or class could be helpful for organizing these. You might also want to include a `seeds.sql` file to pre-populate your database, making the development of individual features much easier.
-
-command: `node src/app.js` will start the build.      
-Command: `psql -U postgres` will get you to access the fucntion.          
-command: `progres=# exit` will stop your code. 
+The codebase includes two files: `schema.sql` and `seeds.sql`. To create the necessary tables, please execute the command `node src/app.js` will start the build, command  `psql -U postgres` will get you to access the fucntion and create tables,at which point you will be prompted to enter a password. After successfully executing this command, you may proceed by running command: `progres=# exit` will stop your code. This step is essential; however, if you require a database populated with employee data, you may also execute `\i src/db/seeds.sql`.
 
 ## License
 This project is licensed under the MIT License and Apache 2.0
