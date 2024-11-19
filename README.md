@@ -45,7 +45,7 @@ The Design database schema would look like the following image:
 
 ![image](https://github.com/user-attachments/assets/cc7dbbfa-2761-4e71-913c-ae9345b57bda)
 
-The codebase includes two files: `schema.sql` and `seeds.sql`. To create the necessary tables, please execute the command `node src/app.js` will start the build, command  `psql -U postgres` will get you to access the fucntion and create tables,at which point you will be prompted to enter a password. After successfully executing this command, you may proceed by running command: `progres=# exit` will stop your code. This step is essential; however, if you require a database populated with employee data, you may also execute `\i src/db/seeds.sql`.
+The codebase includes two files: `schema.sql` and `seeds.sql`. To create the necessary tables, please execute the command `node src/app.js` will start the build, command  `psql -U postgres` will get you to access the fucntion and create tables,at which point you will be prompted to enter a password. After successfully executing this command, you may proceed by running command: `progres=# exit` will stop your code. This step is essential; however, if you require a database populated with employee data, you may also execute `psql -U postgres -d empdb`.
 
 ## License
 This project is licensed under the MIT License and Apache 2.0
